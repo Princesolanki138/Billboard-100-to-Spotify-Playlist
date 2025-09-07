@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# scope = "user-library-read"
 date = input("Which year do you want to travel to? Type the date in this format YYYY-MM-DD: ")
 headers = {
  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
